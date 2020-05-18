@@ -42,7 +42,7 @@ div {
   font-size: 1.5rem;
 } */
 
-html {
+/* html {
   font-size: 62.5%;
 }
 
@@ -54,4 +54,19 @@ button {
   color: #5555c9;
   font-size: 2.4rem;
   border-radius: 1rem;
+} */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+a {
+  display: inline-block;
+  background: lightgray;
 }
