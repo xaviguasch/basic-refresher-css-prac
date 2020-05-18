@@ -1,7 +1,23 @@
-.first-title {
-  color: rgb(172, 179, 192);
+* {
+  font-size: 20px;
 }
 
-#youtube-link {
-  color: black;
+.random h1 {
+  color: #8d2323;
+}
+
+.my-list + ul {
+  list-style: none;
+}
+
+.nav-links li {
+  color: darkcyan;
+}
+
+.nav-links a {
+  color: yellow;
+}
+
+.links li:nth-child(1) {
+  color: red;
 }
