@@ -1,23 +1,11 @@
-* {
-  font-size: 20px;
+#head {
+  color: blue;
 }
 
-.random h1 {
-  color: #8d2323;
+.header {
+  color: coral;
 }
 
-.my-list + ul {
-  list-style: none;
-}
-
-.nav-links li {
-  color: darkcyan;
-}
-
-.nav-links a {
-  color: yellow;
-}
-
-.links li:nth-child(1) {
-  color: red;
+h1 {
+  color: green !important;
 }
