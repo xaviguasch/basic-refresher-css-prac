@@ -34,10 +34,24 @@ div {
   margin-top: 20px;
 } */
 
-.text-section {
+/* .text-section {
   font-size: 1rem;
 }
 
 .text-section div {
   font-size: 1.5rem;
+} */
+
+html {
+  font-size: 62.5%;
+}
+
+button {
+  margin: 20rem;
+  padding: 2rem 4rem;
+  background: none;
+  border: 0.3rem solid #5555c9;
+  color: #5555c9;
+  font-size: 2.4rem;
+  border-radius: 1rem;
 }
