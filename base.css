@@ -66,7 +66,43 @@ html {
   font-size: 62.5%;
 }
 
-a {
+/* a {
   display: inline-block;
   background: lightgray;
+} */
+
+html,
+body {
+  height: 200%;
+}
+
+.container {
+  background: cadetblue;
+  width: 80%;
+  height: 80%;
+  margin: auto;
+  position: relative;
+}
+
+.box1,
+.box2,
+.box3 {
+  width: 20%;
+  height: 20%;
+  background: crimson;
+}
+
+.box2 {
+  background: rgb(37, 38, 116);
+}
+.box3 {
+  background: rgb(24, 150, 62);
+  position: sticky;
+  top: 0%;
+}
+
+.box1 {
+  position: absolute;
+  bottom: 0%;
+  right: 0%;
 }
